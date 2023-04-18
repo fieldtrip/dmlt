@@ -1,10 +1,16 @@
 # About
 
+DMLT was a machine learning toolbox used in the [FieldTrip toolbox](https://www.fieldtriptoolbox.org) for classification of MEG and EEG data. It is not maintained any more and not recommended for new research. See [fieldtrip/website#594](https://github.com/fieldtrip/website/issues/594) and [fieldtrip/fieldtrip#2225](https://github.com/fieldtrip/fieldtrip/issues/2225).
+
+# Historical documentation
+
+## About
+
 DMLT is a machine learning toolbox written in Matlab and C. This toolbox is developed at the Donders Institute for Brain, Cognition and Behaviour and provides a general interface to support the integration of new statistical machine learning methods by writing high level wrappers. It allows complex methods to be built from simple building blocks and makes the use of cross-validation and permutation testing as easy as writing one line of Matlab code. The code requires at least Matlab distribution 7.6.0.324 (R2008a).
 
 Most functions in this toolbox are licensed under the GNU General Public License (GPL), see http://www.gnu.org for details. Unauthorised copying and distribution of functions that are not explicitely covered by the GPL is not allowed. This code comes without warranty of any kind.
 
-# Installation
+## Installation
 
 The most recent version of DMLT can be downloaded as a zipfile from https://github.com/distrep/DMLT/zipball/master
 
@@ -18,7 +24,7 @@ or, if you have write privileges, using:
 
 The repository may then always be updated to the latest version by issuing the `git pull` command in the toolbox root folder.
 
-# Documentation
+## Documentation
 
 DMLT documentation is added automatically to the Matlab help facility when adding DMLT to the search path, e.g. using:
 
@@ -26,6 +32,6 @@ DMLT documentation is added automatically to the Matlab help facility when addin
 
 assuming you start your Matlab session in the DMLT root folder. You may also browse html/guide.html for a quick guide on how to use DMLT.
 
-# Developers
+## Developers
 
 Marcel van Gerven (m.vangerven@donders.ru.nl), Ali Bahramisharif (ali@cs.ru.nl), Jason Farquhar (j.farquhar@donders.ru.nl), Tom Heskes (tomh@cs.ru.nl)
